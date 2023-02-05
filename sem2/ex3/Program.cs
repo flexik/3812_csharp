@@ -47,19 +47,25 @@
 // 25, 5 -> да
 // 8,9 -> нет
 
-// using System;
+using System;
 
-// Console.Clear();
+Console.Clear();
 
-// Console.WriteLine("Введите первое число: ");
-// int num1 = int.Parse(Console.ReadLine());
-// Console.WriteLine("Введите второе число: ");
-// int num2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите первое число: ");
+int num1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите второе число: ");
+int num2 = int.Parse(Console.ReadLine());
 
-// if (num1 == Math.Pow(num2, 2) || num2 == Math.Pow(num1, 2))
-// {
-//     Console.WriteLine("Да");
-// }else{
-//     Console.WriteLine("Нет");
-// }
+if (num1 == Math.Pow(num2, 2) || num2 == Math.Pow(num1, 2))
+{
+    Console.WriteLine("Да");
+}else{
+    Console.WriteLine("Нет");
+}
 
+
+
+
+// На столе лежат n монеток. Некоторые из них лежат вверх решкой, а некоторые – гербом.
+//  Определите минимальное число монеток, которые нужно перевернуть, 
+//  чтобы все монетки были повернуты вверх одной и той же стороной.
